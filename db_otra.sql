@@ -12,6 +12,21 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+
+-- Dumping database structure for otra_db
+CREATE DATABASE IF NOT EXISTS `otra_db` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `otra_db`;
+
+-- Dumping structure for table otra_db.alumnos
+CREATE TABLE IF NOT EXISTS `alumnos` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` tinytext,
+  `apellido` tinytext,
+  `correo` tinytext,
+  `mensaje` tinytext,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+
 -- Dumping data for table otra_db.alumnos: ~3 rows (approximately)
 /*!40000 ALTER TABLE `alumnos` DISABLE KEYS */;
 INSERT INTO `alumnos` (`id`, `nombre`, `apellido`, `correo`, `mensaje`) VALUES
