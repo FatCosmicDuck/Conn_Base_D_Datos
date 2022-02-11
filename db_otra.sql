@@ -12,7 +12,13 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- Data exporting was unselected.
+-- Dumping data for table otra_db.alumnos: ~3 rows (approximately)
+/*!40000 ALTER TABLE `alumnos` DISABLE KEYS */;
+INSERT INTO `alumnos` (`id`, `nombre`, `apellido`, `correo`, `mensaje`) VALUES
+	(1, 'Leonardo', 'Leon', 'Leo.ON34@gmail.com', 'Prueba 1'),
+	(2, 'Karime', 'Perez', 'karime.p34@gmail.com', 'Prueba 2'),
+	(3, 'Luis', 'Vazquez', 'Vaz.Lui23@gmail.com', 'Prueba 3');
+/*!40000 ALTER TABLE `alumnos` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
